@@ -1,0 +1,11 @@
+C:\Users\LauzXa\source\repos\appDate\appDate\bin\Debug\appDate.exe.config
+C:\Users\LauzXa\source\repos\appDate\appDate\bin\Debug\appDate.exe
+C:\Users\LauzXa\source\repos\appDate\appDate\bin\Debug\appDate.pdb
+C:\Users\LauzXa\source\repos\appDate\appDate\obj\Debug\appDate.csproj.AssemblyReference.cache
+C:\Users\LauzXa\source\repos\appDate\appDate\obj\Debug\appDate.csproj.SuggestedBindingRedirects.cache
+C:\Users\LauzXa\source\repos\appDate\appDate\obj\Debug\appDate.Form1.resources
+C:\Users\LauzXa\source\repos\appDate\appDate\obj\Debug\appDate.Properties.Resources.resources
+C:\Users\LauzXa\source\repos\appDate\appDate\obj\Debug\appDate.csproj.GenerateResource.cache
+C:\Users\LauzXa\source\repos\appDate\appDate\obj\Debug\appDate.csproj.CoreCompileInputs.cache
+C:\Users\LauzXa\source\repos\appDate\appDate\obj\Debug\appDate.exe
+C:\Users\LauzXa\source\repos\appDate\appDate\obj\Debug\appDate.pdb
