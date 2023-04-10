@@ -55,10 +55,13 @@ namespace appDate
                     if (messel + 1 == 4 || messel + 1 == 6 || messel == 9 || messel + 1 == 11) { corto = true; }
 
                     if (messel + 1 <= 0 || messel + 1 >= 13) { MessageBox.Show("los meses del año deben insertarse con un numero del 1 al 12"); }
-                    else
+                    else 
                     {
                         if (año % 400 == 0 || (año % 4 == 0 && año % 100 != 0)) { bisiesto = true; }
                         else { bisiesto = false; }
+                        if (messel == 1 && dia >=30 && bisiesto || messel == 1 && dia >= 29 && !bisiesto) { MessageBox.Show("febrero solo tiene 29 dias los años bisiestos y el resto hasta 28"); 
+                        }
+                        else { 
                         if (corto && messel != 1 && dia == 30) { messel += 1; dia = 1; cambioMes = true; }
                         else
                         {
@@ -72,11 +75,11 @@ namespace appDate
                             if (!cambioMes) { dia += 1; }
 
                             MessageBox.Show("mañana sera: " + dia + " del mes: " + meses[messel] + " del año: " + año);
-
                         }
                     }
                 }
             }
         }
     }
+}
 }
